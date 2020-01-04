@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 600 60px "Source Serif Pro", Sans-serif;
+    font: 600 60px 'Source Serif Pro', Sans-serif;
     text-transform: capitalize;
     color: #151d41;
 }
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BOOTSTRAP CUSTOMIZATIONS */
 
 .navbar-default {
-    background: #FFF; !important;
+    background: #FFF !important;
     border: none !important;
 }
 
