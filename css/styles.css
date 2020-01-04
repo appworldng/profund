@@ -27,6 +27,21 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;;
 }
 
+/* CAPTIONS */
+
+.caption {
+    font: 600 60px 'Source Serif Pro', Sans-serif;
+    text-transform: capitalize;
+    color: #151d41;
+}
+
+.sub-caption {
+    font: 700 14px 'Karla', Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #55c882;
+}
+
 /* MARGINS */
 
 .margin-top {
