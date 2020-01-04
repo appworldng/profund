@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BOOTSTRAP CUSTOMIZATIONS */
 
 .navbar-default {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background: #FFF !important;
     border: none !important;
 }
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 25px 25px;
+    padding: 35px 25px;
     font-weight: 700;
 }
 
