@@ -13,3 +13,38 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
     color: #151d41;
 }
+
+/* MARGINS */
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-right {
+    margin-right: 1em;
+}
+
+.margin-bottom {
+    margin-bottom: 1em;
+}
+
+.margin-left {
+    margin-left: 1em;
+}
+
+.margin {
+    margin: 1em;
+}
+
+/* BOOTSTRAP CUSTOMIZATIONS */
+
+.navbar-default {
+    background: none !important;
+    border: none !important;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 25px 15px;
+}
