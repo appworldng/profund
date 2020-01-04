@@ -27,15 +27,53 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: middle;;
 }
 
+/* SECTIONING */
+
+.widgetify-section {
+    padding: 4.5em 0;
+}
+
+.widgetify-section-xs {
+    padding: 0.75em 0;
+}
+
+.widgetify-section-sm {
+    padding: 1.5em 0;
+}
+
+.widgetify-section-md {
+    padding: 4.5em 0;
+}
+
+.widgetify-section-lg {
+    padding: 6em 0;
+}
+
+.widgetify-section-xlg {
+    padding: 9em 0;
+}
+
 /* CAPTIONS */
 
-.widgetify-caption {
+.widgetify-hero {
     font: 600 60px 'Source Serif Pro', Sans-serif;
     text-transform: capitalize;
     color: #151d41;
 }
 
+.widgetify-caption {
+    font: 600 50px 'Source Serif Pro', Sans-serif;
+    text-transform: capitalize;
+    color: #151d41;
+}
+
 .widgetify-sub-caption {
+    font: 600 22px 'Source Serif Pro', Sans-serif;
+    text-transform: capitalize;
+    color: #151d41;
+}
+
+.widgetify-overtext {
     font: 700 14px 'Karla', Sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
