@@ -29,17 +29,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CAPTIONS */
 
-.caption {
+.widgetify-caption {
     font: 600 60px 'Source Serif Pro', Sans-serif;
     text-transform: capitalize;
     color: #151d41;
 }
 
-.sub-caption {
+.widgetify-sub-caption {
     font: 700 14px 'Karla', Sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #55c882;
+}
+
+.widgetify-button {
+    border-radius: 0;
+    border: none !important;
+    padding: 1.25em;
+    width: 200px;
+    background: #55c882 !important;
+    font-size: 16px; font-weight: 700;
+    margin-top: 1em;
 }
 
 /* MARGINS */
