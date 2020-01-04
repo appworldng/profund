@@ -1,0 +1,15 @@
+body, html {
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+}
+
+body {
+    font: 400 16px/1.9em 'Karla', sans-serif;
+    color: #6e7c90;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 600 60px "Source Serif Pro", Sans-serif;
+    text-transform: capitalize;
+    color: #151d41;
+}
