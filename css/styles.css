@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BOOTSTRAP CUSTOMIZATIONS */
 
 .navbar-default {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
     background: #FFF !important;
     border: none !important;
 }
