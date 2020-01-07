@@ -10,7 +10,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font: 600 60px 'Source Serif Pro', Sans-serif;
-    text-transform: capitalize;
     color: #151d41;
 }
 
@@ -68,7 +67,6 @@ a {
 
 .widgetify-caption {
     font: 600 50px 'Source Serif Pro', Sans-serif;
-    text-transform: capitalize;
     color: #151d41;
 }
 
@@ -134,6 +132,20 @@ a {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     background: #FFF !important;
     border: none !important;
+}
+
+.navbar-toggle {
+    border: none !important;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background: none !important;
+    border-radius: 0 !important;
+}
+
+.navbar-toggle span.icon-bar {
+    background: #55c882 !important;
+    border-radius: 0 !important;
 }
 
 .nav > li > a {
