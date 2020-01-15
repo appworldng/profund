@@ -93,11 +93,22 @@ a {
     margin-top: 1em;
 }
 
+.widgetify-control {
+    border-radius: 0; 
+    box-shadow: none !important; 
+    padding: 20px 25px !important; 
+    height: auto !important; 
+    margin-top: 5px; 
+    font-size: 16px;
+}
+
 .widgetify-column-box {
     padding: 4.5em 3em; 
     height: 400px; 
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1); 
     border-radius: 5px;
+    z-index: 1000;
+    position: relative;
 }
 
 .widgetify-column-box i {
